@@ -1,0 +1,67 @@
+RAIN 0
+def turn_around():
+    turn_left()
+    turn_left()
+    move()
+    move()
+    move()
+    move()
+    move()
+    
+def walk():
+    move()
+    move()
+    move()
+    move()
+    move()
+    move()
+    
+walk()
+build_wall()
+turn_around()
+
+RAIN 1
+def walk():
+    move()
+    move()
+    move()
+    move()
+    move()
+    move()
+    
+def lower():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()  
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    move()
+    move()
+    turn_left()
+def turn_around():
+    turn_left()
+    turn_left()
+    move()
+    move()
+    move()
+    move()
+
+def finish():
+    turn_left()
+    move()
+    move()
+    turn_left()
+    move()
+    move()
+      
+walk()
+build_wall()
+lower()
+build_wall()
+turn_around()
+build_wall()
+finish()
